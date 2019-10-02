@@ -1,0 +1,125 @@
+.helpButton{
+    position: fixed;
+    bottom: 10px;
+    right: 20px; 
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    background-color: whitesmoke;
+    color: blue;
+    border-radius: 100px;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.helpButton:focus{
+    outline: none;
+}
+#helpBox {
+    display: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+
+/* The popup form - hidden by default */
+.form-popup {
+  
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 15px;
+  border: 1px solid #f1f1f1;
+  z-index: 9;
+  margin-bottom: 45px
+}
+
+/* Add styles to the form container */
+.form-container {
+  width: 350px;
+  font-size: 14px;
+  font-weight: lighter;
+  background-color: aliceblue;
+}
+.header{
+    height: 40px;
+    font-size: 18px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+    background-color: white;
+    color: blue;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.body {
+   padding: 10px;
+   height: 300px;
+   overflow: scroll;
+   padding-top: 20px;
+   color: black;
+   scroll-behavior: smooth;
+}
+
+
+.footer{
+    height: 50px;
+    background-color: white;
+}
+.footer .textArea{
+    height: 24px;
+    width: 92%;
+    border: 1px solid whitesmoke;
+    font-size: 14px;
+    padding: 12px;
+    box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.2), 0 -4px 8px 0 rgba(0, 0, 0, 0.2); 
+}
+.footer .textArea:focus{
+    outline: none;
+}
+
+
+
+
+.sent {
+    text-align: left;
+}
+
+.sent .contain p {
+    width: fit-content;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+    line-height: 1.5;
+}
+.receive {
+    padding-top: 35px;
+    text-align: end;
+}
+.receive .contain {
+    padding-bottom: 30px;
+}
+.receive .contain span {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.suggest {
+    padding-top: 8px;
+    text-align: center;
+}
+.suggest .contain {
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 7px;
+    color: blue;
+    border: 1px solid blue;
+    background-color: white;
+    border-radius: 21px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); 
+}
+.timeBox {
+    margin-bottom: 12px;
+    font-size: 12px;
+    color: gray;
+
+}

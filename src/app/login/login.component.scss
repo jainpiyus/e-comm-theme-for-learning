@@ -1,0 +1,39 @@
+.loginBox {
+    background-color: whitesmoke;
+    width: 500px;
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    text-align: center;
+    padding-bottom: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.inputBox {
+    width: 200px;
+    height: 25px;
+    font-size: 12px;
+    border: 1px solid gray;
+    padding-left: 10px;
+}
+.signinButton {
+    width: 90px;
+    height: 30px;
+    font-size: 15px;
+    background-color: blue ;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.signinButton:focus{
+    outline: none;
+ }
+ .signinButton:hover{
+     background-color: yellowgreen;
+ }
+.signInText {
+    font-size: 14px;
+    color: gray;
+}

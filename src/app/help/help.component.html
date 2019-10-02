@@ -1,0 +1,46 @@
+<button (click)="chatToggel()" class="helpButton">Online Chat</button>
+
+<div class="form-popup" id="helpBox">
+  <form class="form-container">
+    <div class="header">
+      Live Chat
+    </div>
+    <div class="body" id="chatBoxBody">
+      <!-- <label for="email"><b>Email</b></label>
+      <input type="text" placeholder="Enter Email" name="email" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+
+      <button type="submit" class="btn">Login</button> -->
+      <div *ngFor="let item of chat; let i = index">
+          <div class="receive">
+              <div class="contain">
+                <div class="timeBox">You 8:40 PM</div>
+                <span> {{item.receive.text}}</span>
+              </div>
+          </div>
+          <div class="sent">
+              <div class="contain"  *ngFor="let sent of item.sent">
+                <div class="timeBox">Chat boot 8:40 PM</div>
+                <p>{{sent.text}}</p>
+              </div>
+            </div>
+            <div class="suggest" *ngIf="i == 0">
+              <div class="contain" *ngFor="let question of questions; let i = index" (click)= "send(i)">{{question.question}}</div>
+            </div> 
+            <div class="suggest" *ngIf="i !== 0">
+                <p (click) = "suggestOptions()">Need more help</p>
+                <div class="contain" *ngFor="let question of questions; let i = index" (click)= "send(i)">{{question.question}}</div>
+            </div>
+            
+      </div>
+     
+    </div>
+    <div class="footer">
+        <div>
+          <textarea class="textArea" placeholder="Type your message here and press enter"></textarea>
+        </div>
+    </div>
+  </form>
+</div>

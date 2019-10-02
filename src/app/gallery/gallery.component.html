@@ -1,0 +1,8 @@
+<div class="mainBox">
+    <h1 class="title">Gallery</h1>
+    <div class="galleryBox">
+        <div class="cotainBox" *ngFor="let product of images">
+            <img [src]="product.image[0]" width="200px" height="200px" class="image" />
+        </div>
+    </div>
+</div>

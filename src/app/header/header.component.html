@@ -1,0 +1,45 @@
+<div class="headerBox">
+    <div class="container1 logo">
+        <img src="https://www.freepnglogos.com/uploads/mac-cosmetic-png-logo/apple-mac-cosmetic-png-logo-8.png"
+            width="65">
+    </div>
+
+    <ng-container>
+        <div class="container2" *ngIf="backEnable.url === ''">
+            <ul class="list">
+                <li class="contain" [routerLink]="['/home']" routerLinkActive="active">Home</li>
+                <li class="contain" [routerLink]="['/gallery']" routerLinkActive="active">Gallery</li>
+                <li class="contain" [routerLink]="['/products']" routerLinkActive="active">Products</li>
+                <li class="contain" [routerLink]="['/contact-us']" routerLinkActive="active">Contact Us</li>
+            </ul>
+        </div>
+        <div class="container2" *ngIf="backEnable.url !== ''">
+               
+            <a class="backButton" [routerLink]="['/'+backEnable.url]">
+                <fa style="font-size: 20px; margin-right: 10px;" name="long-arrow-left"></fa>{{backEnable.text}}
+            </a>
+        </div>
+    </ng-container>
+    <div class="container3">
+        <ng-container *ngIf="!loggedIn.name && !contactEnable">
+            <button class="signinButton" (click)="login()">Sign In</button>
+        </ng-container>
+        <ng-container *ngIf="loggedIn.name && !contactEnable">
+            
+            <span class="cartText">
+                <fa style="font-size: 20px;" name="shopping-cart"></fa> <span class="cart">{{cartCount}}</span>
+            </span>
+            <div style="display: flex; flex-direction: column; ">
+                    <span class="user">Welcome, <span style="color: blue;">{{loggedIn.name}}</span></span>
+                    <span style="text-align: center; cursor: pointer;" (click)="logout()">Logout</span>
+            </div>
+            
+
+
+
+        </ng-container>
+        <ng-container *ngIf="contactEnable">
+            <h3 class="user">Mob: +91-9039907701</h3>
+        </ng-container>
+    </div>
+</div>

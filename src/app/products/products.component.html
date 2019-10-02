@@ -1,0 +1,11 @@
+<div class="mainBox">
+    <h1 class="title">Product</h1>
+    <div class="productBox">
+        <div class="cotainBox" *ngFor="let product of products" (click) = "productHome(product.id)">
+             <h2 class="contain">{{product.text}}</h2>
+            <img [src]="product.image[0]" width="300px" height="200px" class="image"/>
+            <button class="addButton" (click)="addToCart($event)">Add to cart</button> 
+        </div>
+    </div>
+    
+</div>

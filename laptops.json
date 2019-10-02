@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "text": "MacBook Air",
+      "image": [
+        "https://cdn.ndtv.com/tech/images/apple_macbook_air.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "MacBook Air",
+      "image": [
+        "https://cnet2.cbsistatic.com/img/8iKssvuXt8ZgAc2orAZDUdz6SKY=/868x488/2017/08/14/ec0fa893-faf2-46c3-8933-6898773804ba/apple-macbook-air-2017-05.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "MacBook Air",
+      "image": [
+        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-201810-gallery4?wid=4000&hei=3072&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1541629418397"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "MacBook Air",
+      "image": [
+        "https://thegoodguys.sirv.com/products/50066708/50066708_634988.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&format=png&png.optimize=true"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "MacBook Air",
+      "image": [
+        "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201907/Apple-MacBook-Air-and-MacBook-_1-770x433.jpeg?v_aH2GzYHMJyLWhkvun6M.J_yQ3kC1fP"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "MacBook Air",
+      "image": [
+        "https://brain-images-ssl.cdn.dixons.com/3/2/10165823/l_10165823_001.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "text": "MacBook Air",
+      "image": [
+        "https://cdn.pocket-lint.com/r/s/970x/assets/images/148821-laptops-review-apple-macbook-air-2019-review-image5-k6faw7poa1.jpg"
+      ]
+    }
+  ],
+  "simillarProducts": [
+    {
+      "id": 1,
+      "text": "MacBook Air",
+      "image": [
+        "https://cdn.ndtv.com/tech/images/apple_macbook_air.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "text": "MacBook Air",
+      "image": [
+        "https://cnet2.cbsistatic.com/img/8iKssvuXt8ZgAc2orAZDUdz6SKY=/868x488/2017/08/14/ec0fa893-faf2-46c3-8933-6898773804ba/apple-macbook-air-2017-05.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "text": "MacBook Air",
+      "image": [
+        "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-air-201810-gallery4?wid=4000&hei=3072&fmt=jpeg&qlt=80&op_usm=0.5,0.5&.v=1541629418397"
+      ]
+    },
+    {
+      "id": 4,
+      "text": "MacBook Air",
+      "image": [
+        "https://thegoodguys.sirv.com/products/50066708/50066708_634988.PNG?scale.height=505&scale.width=773&canvas.height=505&canvas.width=773&canvas.opacity=0&format=png&png.optimize=true"
+      ]
+    },
+    {
+      "id": 5,
+      "text": "MacBook Air",
+      "image": [
+        "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201907/Apple-MacBook-Air-and-MacBook-_1-770x433.jpeg?v_aH2GzYHMJyLWhkvun6M.J_yQ3kC1fP"
+      ]
+    },
+    {
+      "id": 6,
+      "text": "MacBook Air",
+      "image": [
+        "https://brain-images-ssl.cdn.dixons.com/3/2/10165823/l_10165823_001.jpg"
+      ]
+    },
+    {
+      "id": 7,
+      "text": "MacBook Air",
+      "image": [
+        "https://cdn.pocket-lint.com/r/s/970x/assets/images/148821-laptops-review-apple-macbook-air-2019-review-image5-k6faw7poa1.jpg"
+      ]
+    }
+  ]
+  
+}
